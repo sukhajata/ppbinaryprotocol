@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 option csharp_namespace = "BinaryProtocolService";
+option go_package = ".;BinaryProtocolService";
 
 package ppbinaryprotocol;
 
